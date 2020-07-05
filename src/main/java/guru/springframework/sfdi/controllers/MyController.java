@@ -3,6 +3,7 @@ package guru.springframework.sfdi.controllers;
 import guru.springframework.sfdi.services.GreetingService;
 import org.springframework.stereotype.Controller;
 
+
 @Controller
 public class MyController {
 
