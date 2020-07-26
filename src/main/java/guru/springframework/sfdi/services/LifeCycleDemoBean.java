@@ -43,7 +43,7 @@ public class LifeCycleDemoBean implements InitializingBean, DisposableBean, Bean
         System.out.println("# The LifeCycleBean has its properties set");
     }
 
-    //called after bean has been constructed, but before its returned to the requesting object
+    //called after bean has been constructed, but before it's returned to the requesting object
     @PostConstruct
     public void postConstruct() {
         System.out.println("# the post construct annotated method has been called");
